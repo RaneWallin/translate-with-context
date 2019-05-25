@@ -7,7 +7,7 @@ class App extends Component {
     language: "english"
   };
   onLanguageChange = language => {
-    if (language != this.state.language) this.setState({ language });
+    if (language !== this.state.language) this.setState({ language });
   };
   render() {
     return (
