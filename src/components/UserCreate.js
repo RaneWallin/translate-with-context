@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const UserCreate = _ => {
   return (
-    <div>
+    <div className="ui form">
       <Field />
       <Button />
     </div>
